@@ -133,6 +133,10 @@ final class ChatViewModel {
         speechService.stop()
     }
 
+    func speak(_ text: String) {
+        speechService.speak(text)
+    }
+
     func newConversation() {
         generationTask?.cancel()
         generationTask = nil
