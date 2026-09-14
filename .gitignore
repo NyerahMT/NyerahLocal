@@ -1,0 +1,15 @@
+# Xcode
+DerivedData/
+.build/
+*.xcuserstate
+xcuserdata/
+
+# Generated project
+NyerahLocal.xcodeproj/
+
+# SwiftPM
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
